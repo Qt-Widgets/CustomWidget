@@ -1,0 +1,70 @@
+#DateTimeDialogSubmitButton
+{
+	background-color: rgb(32,110,172);
+	width: 80px;
+	height: 30px;
+	border-radius: 4px;
+	border: 0px;
+	color: rgb(255,255,255);
+}
+QCalendarWidget QTableView 
+{
+    alternate-background-color: rgb(252,252,252);
+}
+QCalendarWidget QTableView 
+{
+    alternate-background-color: rgb(252,252,252);
+    background-color: rgb(252,252,252);
+}
+QCalendarWidget QWidget#qt_calendar_navigationbar{
+	background-color: rgb(252,252,252);
+	/*color: rgb(0,0,0);*/
+}
+QToolButton#qt_calendar_prevmonth {
+	width: 28px;
+	height: 28px;
+	qproperty-icon: url() ;
+	background-image: url(:/VideoAnalysis/Resources/calendarWidgetleft.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+QToolButton#qt_calendar_nextmonth {
+	width: 28px;
+	height: 28px;
+	qproperty-icon: url() ;
+	background-image: url(:/VideoAnalysis/Resources/calendarWidgetright.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+QToolButton#qt_calendar_prevmonth::hover {
+	width: 28px;
+	height: 28px;
+	qproperty-icon: url() ;
+	background-image: url(:/VideoAnalysis/Resources/calendarWidgetleft_hover.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0px;
+}
+QToolButton#qt_calendar_nextmonth::hover {
+	width: 28px;
+	height: 28px;
+	qproperty-icon: url() ;
+	background-image: url(:/VideoAnalysis/Resources/calendarWidgetright_hover.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0px;
+}
+QToolButton#qt_calendar_monthbutton,#qt_calendar_yearbutton{
+	color: rgb(0,0,0);
+}
+QAbstractItemView {
+    
+    selection-color: white;
+    selection-background-color: rgb(0,160,234);
+    font: 15px;
+}
+#DateTimeDialog
+{
+	background-color: rgb(252,252,252);
+	border: 1px solid rgb(201,201,201);
+}

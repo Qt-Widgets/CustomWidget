@@ -1,0 +1,20 @@
+QMenu#CustomMenu
+{
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(70, 70, 70); /*整个菜单区域的边框粗细、样式、颜色*/
+    border-radius: 5px;
+}
+QMenu#CustomMenu::item 
+{ 
+	background-color: transparent;
+	padding:10px 35px;/*设置菜单项文字上下和左右的内边距，效果就是菜单中的条目左右上下有了间隔*/ 
+	margin:1px 1px;/*设置菜单项的外边距: 长(height) 宽(width)*/ 
+	/*border-bottom:1px solid #DBDBDB;*//*为菜单项之间添加横线间隔*/ 
+}
+
+QMenu#CustomMenu::item:selected
+{ 
+	background: rgb(233, 233, 233);
+}

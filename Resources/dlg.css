@@ -1,0 +1,19 @@
+QPushButton{
+ background-color: #6f7071; 
+ color: white;
+ font-family: "Microsoft YaHei";
+ font-size: 20px;
+}
+
+
+QPushButton:focus{ 
+
+	border-width: 2px;
+	border-style: outset;
+	border-color: white;
+}
+QLabel{
+	color: white;
+	 font-family: "Microsoft YaHei";
+	  font-size: 20px;
+}

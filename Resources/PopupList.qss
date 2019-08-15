@@ -1,0 +1,29 @@
+QWidget#customPopupList
+{	
+	background-color: rgb(54,113,169);
+	border-radius: 3px;
+	border:1px solid rgb(101,151,199);
+}
+QLabel#headLabel
+{
+	color: rgb(255,255,255);
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}
+QLabel#contentLabel
+{
+	color: rgb(255,255,255);
+}
+QPushButton#dropButton
+{
+	background-color:transparent;
+	border:0px;
+}
+QPushButton#allButton
+{
+	background-color:transparent;
+	border:0px;
+	color: rgb(255,255,255);
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+}

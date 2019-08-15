@@ -1,0 +1,17 @@
+QLineEdit#editor
+{
+	color:white;
+	background-color:rgb(35,99,161);
+	min-height:35px;
+	max-height:35px;
+	border-radius:4px;
+	border:1px solid #5f8ebb;
+	/*margin-bottom:30px;*/
+	font-size: 12px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	padding-left:10px;
+}
+QWidget#mainWidget
+{
+	background-color:transparent;
+}

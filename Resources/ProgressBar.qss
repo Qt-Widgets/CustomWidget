@@ -1,0 +1,39 @@
+QProgressBar#customProgressBar
+{
+	color:rgba(0,157,217,0);
+	background-color:rgb(174,174,174);
+	border-radius:3px;
+}
+QProgressBar#customProgressBar::chunk
+{
+	background-color:rgb(0,157,217);
+	border-radius:3px;
+}
+
+QProgressBar#runningTaskProgressBar
+{
+	color:rgba(0,157,217,0);
+	background-color:rgb(27,97,174);
+	border-radius:3px;
+}
+QProgressBar#runningTaskProgressBar::chunk
+{
+	background-color:rgb(102,255,0);
+	border-radius:3px;
+}
+
+QProgressBar#failedTaskProgressBar
+{
+	color:rgba(0,157,217,0);
+	background-color:rgb(27,97,174);
+	border-radius:3px;
+}
+QProgressBar#failedTaskProgressBar::chunk
+{
+	background-color:rgb(255,165,153);
+	border-radius:3px;
+}
+QWidget#mainWidget
+{
+	background-color:transparent;
+}

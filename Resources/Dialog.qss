@@ -1,0 +1,25 @@
+QDialog#CustomDialog
+{
+	background-color : rgb(6,67,135);
+}
+QWidget#titleWidget
+{
+	background-color : rgb(19,103,195);
+}
+QLabel#titleLabel
+{
+	color:white;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	font-weight:Bold;
+}
+#closeButton,#maxButton,#minButton
+{
+	background-color: rgb(19,103,195);
+	border: 0px;
+}
+#closeButton::hover,#maxButton::hover,#minButton::hover
+{
+	background-color: rgb(16,83,157);
+
+}

@@ -1,0 +1,41 @@
+#MessageInfomainWidget,#MessageDeletemainWidget
+{
+	width: 300px;
+	height: 170px;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 6px;
+}
+#MessageInfoimgLabel
+{
+	background: url(:/MessageBox/Resources/success.png) no-repeat;
+	background-position: bottom center;
+}
+#MessageInfotextLabel,#MessageDeletetextLabel
+{
+	color: rgb(255,255,255);
+	font-size: 20px;
+}
+#MessageDeletecloseButton
+{
+	border: 0px;
+	height: 50px;
+	color: rgb(255,255,255);
+	border-bottom-left-radius: 6px;
+	font-size: 16px;
+}
+#MessageDeletesubmitButton
+{
+	border: 0px;
+	height: 50px;
+	color: rgb(255,255,255);
+	border-left: 1px solid rgb(255,255,255);
+	border-bottom-right-radius: 6px;
+	font-size: 16px;
+}
+#MessageDeletetoolWidget
+{
+	border-top: 1px solid rgb(255,255,255);
+	height: 50px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}

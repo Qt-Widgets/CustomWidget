@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/CustomWidget">
+        <file>Resources/MessageBox.qss</file>
+        <file>Resources/Menu.qss</file>
+        <file>Resources/Dialog.qss</file>
+        <file>Resources/PopupList.qss</file>
+        <file>Resources/ProgressBar.qss</file>
+        <file>Resources/Calendar.qss</file>
+        <file>Resources/success.png</file>
+        <file>Resources/warning.png</file>
+        <file>Resources/closeButton.png</file>
+        <file>Resources/zoomInButton.png</file>
+        <file>Resources/zoomOutButton.png</file>
+        <file>Resources/dropdown.png</file>
+        <file>Resources/raiseup.png</file>
+        <file>Resources/space.png</file>
+        <file>Resources/hiddenButton.png</file>
+        <file>Resources/dlg.css</file>
+        <file>Resources/clear.png</file>
+        <file>Resources/SearchBox.qss</file>
+        <file>Resources/startSearch.png</file>
+        <file>Resources/bottom_time.png</file>
+    </qresource>
+</RCC>
